@@ -13,13 +13,13 @@
     width: 75%;
     padding: 16px;
     border: 0;
-    border-bottom: 1px solid cornflowerblue;
+    border-bottom: 1px solid rgb(41, 41, 41);
     font-weight: bold;
 }
 
 .search-container > input:focus {
     outline: 0;
-    border-bottom: 2px solid cornflowerblue;
+    border-bottom: 2px solid rgb(255, 41, 41);
 }
 
 .search-container > input:focus::placeholder {
@@ -27,7 +27,7 @@
 }
 
 .search-container >  input::placeholder {
-    color: cornflowerblue;
+    color: rgb(255, 41, 41);
     font-weight: normal;
 }
 
@@ -36,7 +36,7 @@
     cursor: pointer;
     margin-left: auto;
     padding: 16px;
-    background-color: cornflowerblue;
+    background-color: rgb(255, 41, 41);
     color: white;
     border: 0;
     text-transform: uppercase;
